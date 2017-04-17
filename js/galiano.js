@@ -29,7 +29,7 @@ $(document).on("ready", function () {
     if(tab == "lect1" || tab == "lect2" || tab == "lect3" || tab == "lect4" || tab == "lect5"){
 
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     }
@@ -40,14 +40,14 @@ $(document).on("ready", function () {
 
         $('a[href="#Modelo"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     }
     if(tab == "mult2"){
         $('a[href="#Float_Position_Oweflow"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     }
@@ -55,21 +55,21 @@ $(document).on("ready", function () {
     if(tab == "acti1"){
         $('a[href="#Modelo"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     }
     if(tab == "acti2"){
         $('a[href="#Margin"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     }
     if(tab == "acti3"){
         $('a[href="#Padding"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     }
@@ -79,14 +79,14 @@ $(document).on("ready", function () {
     $("[href='Multimedia.html#mult1']").on("click", function () {
         $('a[href="#Modelo"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     });
     $("[href='Multimedia.html#mult2']").on("click", function () {
         $('a[href="#Float_Position_Oweflow"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     });
@@ -97,21 +97,21 @@ $(document).on("ready", function () {
     $("[href='Actividades.html#acti1']").on("click", function () {
         $('a[href="#Modelo"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     });
     $("[href='Actividades.html#acti2']").on("click", function () {
         $('a[href="#Margin"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     });
     $("[href='Actividades.html#acti3']").on("click", function () {
         $('a[href="#Padding"]').tab('show');
         var posicion = $(".menu").offset().top;
-        $("html, body").animate({
+        $("html, body").stop(false,false).animate({
             scrollTop: posicion - 80
         }, 1000);
     });
